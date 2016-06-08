@@ -18,6 +18,8 @@
 *.elf
 *.swp
 *.bin
+!E4412_N.bl1.bin
+!E4412_tzsw.bin
 *.patch
 *.cfgtmp
 
@@ -34,7 +36,7 @@
 /SPL
 /System.map
 /u-boot*
-/boards.cfg
+boards.cfg
 
 #
 # git files that we don't want to ignore even it they are dot-files
